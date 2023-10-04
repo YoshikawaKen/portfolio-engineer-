@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+.main {
+	width: 1440px;
+	height:auto;
+	position: relative;
+}
+.main img{
+	width:100%;
+	height:auto;
+  }
+
+.main p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:0;
+	margin:0;
+	font-size:100px;
+	color: rgb(40, 38, 38);
+  }
+
+.wf{
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+
+.contents{
+	background-color:#DBFDE6;
+	padding: 83px;
+}
+
+.contents_inner{
+	background-color: #FFF;
+	list-style: none;
+	width: 1280px;	/* block 要素の中央配置, 横幅設定 */
+	margin: 0 auto;	/* block 要素の中央配置 */
+	padding-top: 65px 0 0;	/* 画面最上部からロゴまでの内側の余白を設定 */
+	font-size: 71px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;	/* 内部テキスト、inline 要素の中央配置 */
+
+}
+
+.contents_inner ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.about {
+	margin-top: 181px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.about2 {
+	display: flex;
+	width: 720px;
+	height: 1220px;
+}
+
+.contents_inner p{
+	font-size: 28px;
+}
+
+.contents_inner img{
+	padding-right: 600px;
+}
+
+.p2{
+	font-size: 50px;
+}
+
+
+/*TOPページの緑横*/
+.green1{
+	height: 3660px;
+}
+
+.縦green{
+	height: 800px;
+
+}
+.box1 {
+	margin       : auto;
+	width        : 1440px;
+	height       : 3335px;
+	background:black;
+    }
+
+.box2 {
+	margin       : auto;
+	width        : 1440px;
+	height       : 2777px;
+	background: rgb(255, 255, 255);
+    }
+

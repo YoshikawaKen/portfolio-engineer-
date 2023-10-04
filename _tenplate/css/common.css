@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+.main {
+	width: 1440px;
+	height:auto;
+	position: relative;
+}
+.main img{
+	width:100%;
+	height:auto;
+  }
+
+.main p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:0;
+	margin:0;
+	font-size:100px;
+	color: rgb(40, 38, 38);
+  }
+
+.wf{
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+
+.contents{
+	background-color:#DBFDE6;
+	padding: 83px;
+	width: 1440px;
+	box-sizing: border-box; /*横幅を固定*/
+}
+
+.contents_inner{
+	background-color: #FFF;
+	list-style: none;
+	width: 1280px;	/* block 要素の中央配置, 横幅設定 */
+	margin: 0 auto;	/* block 要素の中央配置 */
+	padding-top: 65px 0 0;	/* 画面最上部からロゴまでの内側の余白を設定 */
+	font-size: 71px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;	/* 内部テキスト、inline 要素の中央配置 */
+
+}
+
+.contents_inner ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.contents_inner li{
+	margin-top: 100px;
+	font-family: 'Yusei Magic', sans-serif;
+
+}
+
+.contents_inner p{
+	font-size: 28px;
+}
+
+.about {
+	margin-top: 181px;
+	margin: 181px auto 0;
+	display: flex;
+	justify-content: center;
+	width: 1000px; /*ここで横幅を変更*/
+	align-items: center; /*子要素を上下中央で揃える指定*/
+	
+	
+}
+
+.about img{
+	margin-right: 100px;
+}
+
+.about2 {
+	margin-top: 181px;
+	margin: 181px auto 0;
+	display: flex;
+	justify-content: center;
+	width: 1000px; /*ここで横幅を変更*/
+	align-items: center; /*子要素を上下中央で揃える指定*/
+		
+}
+
+.about2 img{
+	margin-left: 100px;
+}
+
+.about3 {
+	margin-top: 181px;
+	margin: 181px auto 0;
+	display: flex;
+	justify-content: center;
+	width: 1000px; /*ここで横幅を変更*/
+	align-items: center; /*子要素を上下中央で揃える指定*/
+		
+}
+
+.about3 img{
+	margin-right:  100px;
+}
+
+/*アイコン*/
+
+.icon img{
+	margin-right: 400px;
+	margin-top: 200px;
+}
+
+.icon li{
+	margin-right:  390px;
+	margin-top: 5px;
+}
+
+.icon2 img{
+	margin-left:  400px;
+	margin-top: 5px;
+}
+
+.icon2 li{
+	margin-left:   390px;
+	margin-top: 5px;
+}
+
+.icon3 img{
+	margin-right: 450px;
+}
+
+.icon3 li{
+	margin-right:  430px;
+	margin-top: 5px;
+}
+
+/*プロフィール*/
+.prf{
+	background-color:dimgrey;
+	padding: 10px;
+	width: 1440px;
+	box-sizing: border-box; /*横幅を固定*/
+	font-size: 1px;
+	justify-content: center;
+}
+
+.prf_innner{
+	background-color: #FFF;
+	list-style: none;
+	width: 1420px;	/* block 要素の中央配置, 横幅設定 */
+	margin: 0 auto;	/* block 要素の中央配置 */
+	padding-top: 65px 0 0;	/* 画面最上部からロゴまでの内側の余白を設定 */
+	font-size: 28px;
+	
+}
+
+.prf_innner img{
+	margin-left: 50px;
+	margin-top: 23px;
+}
+
+.prf_overview a {
+	display:block;
+	margin-left: 30px
+
+
+}
+
+
+.prf h1{
+	font-family: 'Yusei Magic', sans-serif;
+	margin-left:  90px;
+	margin: 20 20;
+}
+
+.sns img{
+	margin-left: 350px;
+}
+
+
+.p2{
+	font-size: 50px;
+}
+
+
+

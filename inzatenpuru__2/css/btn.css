@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@media (max-width: 900px) {
+	html.sidebar-is-open .sp-navi-box {
+		display: block;
+	}
+
+	html.sidebar-is-open {
+		position: fixed;
+		/* top: 50%; */
+		top:1%;
+		right: 20%;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+}
+
+
+
+/* 600px以下の画面幅でのスタイル変更 */
+@media (max-width: 600px) {
+	.access__map__text {
+		writing-mode: horizontal-tb;
+		line-height: normal;
+		letter-spacing: normal;
+	}
+}
+
+
+.home-main-btn {
+	/* position: absolute;
+	top: 65%;
+	left: 24%;   */
+	/* padding-left: 400px; */
+	padding-left: 5%;
+	padding-top: 340px;
+	opacity: 0;
+	-webkit-transition: opacity 1s cubic-bezier(0.37, 0, 0.63, 1);
+	transition: opacity 1s cubic-bezier(0.37, 0, 0.63, 1);
+	opacity: 1;
+	-webkit-transition-delay: 2.2s;
+	transition-delay: 2.2s;
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.home-main-btn {
+		max-width: 200px;
+		margin: 0 auto;
+	}
+}
+
+.home-main-btn a {
+	width: 40px;
+	height: 150px;
+	padding: 15px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border: 2px solid #576D35;
+	/* border-radius: 5px; */
+	font-size: 1.3rem;
+	line-height: 1.4;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	line-height: 2.3;
+	letter-spacing: 0.5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.home-main-btn{
+		padding-top: 20px;
+		padding-left: 0;
+	}
+	.home-main-btn a{
+		writing-mode: horizontal-tb;
+		width: 180px;
+		height: 30px;
+	}
+}
+
+.home-main-btn a:hover {
+	background-color: #576D35;
+	color: #fff;
+	border: #40220F solid 2px;
+}
+

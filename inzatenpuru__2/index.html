@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>インザテンプル</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/load.css">
+  <link rel="stylesheet" href="./css/btn.css">
+
+  <!-- [endif] -->
+  <script src="main.js" defer></script>
+  <script src="load.js" defer></script>
+  <!--JQuery読み込み-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-4/js/4-1-4.js"></script>
+
+  <!-- Adobeフォント -->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'pnt0mrq',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    position: fixed;
+    background-color: #fff;
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* z-index: 999; */
+    /* margin: auto; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    /* right: 50%; */
+  }
+
+  #header {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  #header ul {
+    justify-content: center;
+  }
+
+
+  .logo img {
+    width: 100px;
+    height: 48px;
+    padding-left: 50px;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="inner">
+      <p class="logo"><a class="over" href="./index.html"><img src="./img/logo.png"></a></p>
+      <ul class="navi">
+        <li><a href="./about.html">私たち</a></li>
+        <li><a href="#news">おしらせ</a></li>
+        <li><a href="./guest.html">出演者</a></li>
+        <li><a href="./timeSchedule.html">予定表</a></li>
+        <li><a href="./sponser.html">スポンサー</a></li>
+        <li><a href="#form">お問い合わせ</a></li>
+        <li><a class="button" href="/recruit/">チケット購入</a></li>
+      </ul>
+    </div>
+    <button class="sp-navi-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+  </header>
+  <main>
+    <div class="firstView">
+      <img src="./img/firstView3.jpg">
+    </div>
+    <p class="firstView__title">インザテンプル</p>
+    <div class="firstView__text__content">
+      <div class="firstView__wrapper">
+        <div class="firstView__text--day">
+          <p class="firstView__place__name">場所：百萬遍知恩寺 <wbr>[ 京都 ]<br></p>
+          <p class="firstView__time">日時：2023/11/25<br>13:00 - 17:00</p>
+            <!-- <p class="firstView-time">13:00 - 17:00</p> -->
+        </div>
+      </div>
+    </div>
+    <section id="about__container" class="fade-in">
+      <div class="about__content">
+        <div class="about__text-title flexbox">
+          <p class="about__vertical__text vertical__text animated-text">
+            <span class="about__bigText">インザテンプルとは</span><br>
+            イベント企画チーム<br class="sp__only--about">「音座」による<br>
+            お寺で聞く音楽イベント。<br>
+            第３回となる今回は<br class="sp__only--about">百萬遍知恩寺の<br>
+            大方丈でインド音楽を。<br>
+            私たちは今年の３月に<br class="sp__only--about">インドに訪れ<br>
+            その際、ずっと<br class="sp__only--about">息づいている「根」の<br>
+            ようなものを垣間見た。<br>
+            私たちにも<br class="sp__only--about">土壌を同じくする根はあ<br>
+            るのだろうか。<br>
+            インド音楽を<br class="sp__only--about">日本で聴きたいと思った。
+          </p>
+          <div class="space"></div>
+          <div class="home-main-btn">
+            <a href="./about.html">詳しくみる</a>
+          </div>
+        </div>
+        <div class="about__img">
+          <img src="./img/temple_img.JPG">
+        </div>
+      </div>
+    </section>
+    <div class="inner">
+      <secton id="news" class="fade-in">
+        <div class="news__container">
+          <div class="news__text-title">
+            <h2>おしらせ</h2>
+            <p class="about__text--subtitle">NEWS</p>
+          </div>
+          <a href="#">
+            <div class="news__warrapper news__warrapper--one">
+              <hr>
+              <p class="news__warrapper__text">
+                <span class="news__warrapper__dayText">
+                  2023/9/1
+                </span>
+                <br class="sp__only--news">
+                <br class="sp__only--news">
+                音座テンプルの<wbr>公式ホームページが完成
+              </p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="news__warrapper news__warrapper--two">
+              <hr>
+              <p class="news__warrapper__text">
+                <span class="news__warrapper__dayText">
+                  2023/9/1
+                </span>
+                <br class="sp__only--news">
+                <br class="sp__only--news">
+                音座テンプルの<wbr>公式ホームページが完成
+              </p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="news__warrapper news__warrapper--three">
+              <hr>
+              <p class="news__warrapper__text">
+                <span class="news__warrapper__dayText">
+                  2023/9/1
+                </span>
+                <br class="sp__only--news">
+                <br class="sp__only--news">
+                音座テンプルの<wbr>公式ホームページが完成
+              </p>
+              <hr style="margin-bottom: 100px;">
+            </div>
+          </a>
+        </div>
+      </secton>
+    </div>
+    <section id="guest" class="fade-in">
+      <div class="guest__container">
+        <div class="guest__text-title">
+          <h2>出演者</h2>
+          <p class="about__text--subtitle">GUEST</p>
+        </div>
+        <ul class="guest_list scale">
+          <!-- <div class=".sp__only--guest"> -->
+          <a href="guest.html#guest--one">
+            <li class="guest__wrapper"><img src="./img/guest/Uzhaan.jpg">
+              <p>U-zhaan</p>
+            </li>
+          </a>
+          <a href="guest.html#guest--two">
+            <li class="guest__wrapper"><img src="./img/guest/NakagawaYuzi.jpg">
+              <p>ナカガワユウジ</p>
+            </li>
+          </a>
+          <!-- </div> -->
+          <div class="sp__only--guest"></div>
+          <!-- <div class=".sp__only--guest"> -->
+          <a href="guest.html#guest--three">
+            <li class="guest__wrapper"><img src="./img/guest/RyuKurosawa.jpg">
+              <p>Ryu kurosawa</p>
+            </li>
+          </a>
+          <a href="guest.html#guest--four">
+            <li class="guest__wrapper"><img src="./img/guest/Uzhaan.jpg">
+              <p>ゲストの名前</p>
+            </li>
+          </a>
+          <!-- </div> -->
+        </ul>
+        <a href="./guest.html" class="guest_a">
+          <div class="moreView__button--guest moreView__button">
+            <p class="moreView__text">もっとみる</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div class="inner">
+      <section id="access" class="fade-in">
+        <div class="access__container">
+          <div class="access__text-title">
+            <h2>アクセス</h2>
+            <p class="about__text--subtitle">ACCESS</p>
+          </div>
+          <div class="access__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1555.1013510970186!2d135.78035338499586!3d35.03001318404805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010859f9136c11%3A0x7f0dcca28e53d3ec!2z55m-6JCs6YGN55-l5oGp5a-6!5e0!3m2!1sja!2sjp!4v1688033313062!5m2!1sja!2sjp"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="access__map__text">
+              場所：　百萬遍知恩(京都)<br>
+              <span class="access__address--one">住所：　〒６０６ー８２２５ </span>
+              <span class="access__address--two">京都府京都市左京区田中門前町１０３</span>
+              最寄駅：　出町柳駅から徒歩１０分
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="form" class="fade-in">
+        <div class="form__container">
+          <div class="form__text-title">
+            <h2>お問い合わせ</h2>
+            <p class="about__text--subtitle">CONTACT</p>
+          </div>
+          <a href="mailto:inthe.kyoto@gmail.com">
+            <div class="form__button">
+              <p class="form__button__text">メールでお問い合わせ</p>
+            </div>
+            <p class="form___email">inthe.kyoto@gmail.com</p>
+          </a>
+        </div>
+      </section>
+      <section id="BuyTicket" class="fade-in">
+        <div class="BuyTicket__container">
+          <div class="BuyTicket__text-title">
+            <h2>チケット購入</h2>
+            <p class="about__text--subtitle">Buy Ticket</p>
+          </div>
+          <div class="BuyTicket__text">
+            <div class="BuyTicket__price__text">
+              <p>入場料：　一般　３０００円</p>
+              <p class="BuyTicket__price__text--student">学生　２５００円</p>
+            </div>
+            <!-- <div class="BuyTicket__visitors__text">
+              <p>入場者：　１００人</p>
+            </div> -->
+          </div>
+          <div class="BuyTicket__Button">
+            <p>BUY TICKET</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="md-flex md-justify-between">
+      <a href="https://jajaaan.co.jp/" class="footer__logo">
+        <img src="./img/logo.png" width="100px" height="40px" alt="音座Logo" />
+      </a>
+      <div class="grid">
+        <div>
+          <p class="footer__navi-heading">私たち</p>
+        </div>
+        <div>
+          <p class="footer__navi-heading">おしらせ</p>
+        </div>
+        <div>
+          <p class="footer__navi-heading">出演者</p>
+        </div>
+        <div>
+          <p class="footer__navi-heading">予定表</p>
+        </div>
+        <div>
+          <p class="footer__navi-heading">スポンサー</p>
+        </div>
+        <div>
+          <p class="footer__navi-heading">お問い合わせ</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="md-flex md-justify-between">
+      <p class="copyright">2023 音座/インザナイツ</p>
+      <div class="footer__social">
+        <a href="#" style="margin-top: 10px;">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          </svg>
+        </a>
+        <a href="#" style="margin-top: 10px;">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- <p class="about__vertical__text vertical__text animated-text">
+	<span class="about__text--title">インザナイツ</span><br>
+	京都精華大学の野外での開催でしたが、<br>
+	念頭に置いていたため、投げ銭ボックスや<br>
+	キャンドルなどを設置しました。<br>
+	通りすがりの方も含め、たくさんの方々<br>
+	に来場いていただくことができました。<br>
+	癒しを与えるということを目的としてい<br>
+	たので、弾き語りの学生アーティスト<br>
+	をキャスティングしました。<br>
+	キャンドルと電飾することで暖か<br>
+	い雰囲気を目指したイベントです。<br>
+	<span class="intheNight__text--guest">ゲスト:Shine、工藤玄暉</span><br>
+	<span class="intheNight__text--visitors">来場者：５０人</span>
+</p> -->
